@@ -5,8 +5,8 @@ module.exports = {
 			word: "exponentiate",
 			description: "Proof of Concept.",
 			execute: function (m, p) {
-				send(m, "~M~exponentiate");
-				send(m, "~M~exponentiate");
+				m.channel.sendMessage("~M~exponentiate");
+				m.channel.sendMessage("~M~exponentiate");
 			}
 		}
 	],
